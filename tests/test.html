@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Response Website</title>
+    <link rel="stylesheet" href="css/styles.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="bower_components/c3/c3.css" media="screen" title="no title" charset="utf-8">
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header collapsed">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="javascript:void(0)navbar" aria-expanded="false" aria-controls="navbar">
+          </button>
+          <a class="navbar-brand" href="javascript:void(0)">Results: Factory Rejects <span>(Status: Open Beta) SPA</span></a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul id="navbar" style="float: right; position: relative;" class="nav navbar-nav navbar-right col-sm-7 col-xs-7 col-md-7">
+            <li style="float: right; position: relative;"><a style="padding-top: 15px;" href="http://babeljs.io"><img height="20px" width="40px" src="https://raw.githubusercontent.com/babel/logo/master/babel.png" alt="Babel" /></a></li>
+            <li style="float: right; position: relative;"><a style="padding-top: 13px; text-decoration: underline;" href="http://lodash.com"><!--<img height="20px" width="30px" src="http://dojofoundation.org/images/projects/sized-lodash.png" alt="Lodash" />-->Lo</a></li>
+            <li style="float: right; position: relative;"><a style="padding-top: 15px;" href="http://papaparse.com/">PP</a></li>
+            <li style="float: right; position: relative;"><a style="padding-top: 13px;" href="http://d3js.org"><img height="20px" width="20px" src="https://upload.wikimedia.org/wikipedia/en/thumb/1/15/Logo_D3.svg/1079px-Logo_D3.svg.png" alt="D3JS" /></a></li>
+            <li style="float: right; position: relative;"><a style="padding-top: 15px;" href="http://c3js.org">C3JS</a></li>
+            <li style="float: right; position: relative;"><a style="padding-top: 13px;" href="http://npmjs.com"><img height="20px" width="20px" src="https://worldvectorlogo.com/logos/npm-2.svg" alt="NPM" /></a></li>
+            <li style="float: right; position: relative;"><a style="padding-top: 10px;" href="http://nodejs.org"><img height="20px" width="100px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1280px-Node.js_logo.svg.png" alt="Node.JS" /> <span style="position: relative; float: right; margin-top: 5px; margin-left: 5px; color: #83CD29">5.8.0</span></a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3 col-md-2 sidebar">
+          <ul class="nav nav-sidebar" id="navi">
+            <li><h2 id="h201">Factory rejects</h2></li>
+            <li class="pad_nav active" id="101"><a href="javascript:void(0)">Overview</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+          <!-- Row 1-->
+          <div class="row placeholders circle" id="_101">
+            <div class="col-xs-12 col-sm-12 placeholder">
+              <h2>Overview</h2>
+              <p>
+                Welcome to team Factory rejects's website. Over the course of the past 2 weeks we have surveyed now over 60 people and asked them about their take on questions pertaining to piracy, media, and paid media outlets.<br>
+                Our survey was directed at social media users within a median age of 20 - 30 years of age. Suprisingly enough we yielded results that allowed us to make opinions based on a group of people.
+                <br>
+                Pleas note that this website does not support mobile format at this current time. Work is underway to remedy this problem.<br>
+                If you have not already please take our survey here:
+                <iframe src="https://docs.google.com/forms/d/1SkOpAGsb3MAWBMSVKwgIIgGO7Wne_xB86O1oP6tnuIY/viewform?embedded=true#start=embed" width="100%" height="2700" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+              </p>
+            </div>
+          </div>
+          <div class="row placeholders circle hidden" id="_1">
+            <div class="col-xs-12 col-sm-12 placeholder">
+                <h2>Gender</h2>
+              <div class="genderChart"></div>
+              <p>
+                Supprisingly majority of our participants are of the female gender. Based on this we can provide a good reference to the female aspect of issues in this field.
+              </p>
+            </div>
+          </div>
+          <div class="row placeholders circle hidden" id="_2">
+            <div class="col-xs-12 col-sm-12 placeholder">
+              <h2>Types of Obtained Music</h2>
+              <div class="obtainChart"></div>
+              <p>
+                Based on this we can deduce that streaming is the most popular form of listining to music and that only a quarter of people actually take the time to download a particular file majority of the time.
+              </p>
+            </div>
+          </div>
+          <div class="row placeholders circle hidden" id="_3">
+            <div class="col-xs-12 col-sm-12 placeholder">
+              <h2>Age of Surveyee</h2>
+              <div class="ageChart"></div>
+              <p>
+                This chart is in reference to the age group that we attained results from on this survey. Our target audience of 21 -29 years of age was only just under half of the yielded results much to our suprise. And interestingly enough we had just as many people from the age group of 30 and above.
+              </p>
+            </div>
+          </div>
+          <div class="row placeholders circle hidden" id="_4">
+            <div class="col-xs-12 col-sm-12 placeholder site_stream">
+              <h2>Site Stream</h2>
+              <div class="platformChart"></div>
+              <p>
+                According to our data pandora is one of the most popular streaming websites. But at the same time there are also people who use YouTube, and spottify which we didnt think about when we created the survey. We also think that based off of this had we added those 2 options in we may have yielded different results.
+
+              </p>
+            </div>
+          </div>
+          <div class="row placeholders circle hidden" id="_5">
+            <div class="col-xs-12 col-sm-12 placeholder">
+              <h2>Reasons for Not Streaming</h2>
+              <div class="nonStreamChart"></div>
+              <p>
+                This was a bit suprising in the sense that we believe that many people were unconfortable with the question or maybe it was a little hard to answer.
+              </p>
+            </div>
+          </div>
+          <!--Row 2-->
+          <div class="row placeholders circle hidden" id="_6">
+            <div class="col-xs-12 col-sm-12 placeholder">
+              <h2>Method for Obtaining Media</h2>
+              <div class="obtainDeviceChart"></div>
+              <p>
+                Conflicting with the rest of our survey we recieved a good amount of people that actually paid for the media they got. Despite the results of our later questions.
+              </p>
+            </div>
+          </div>
+
+          <div class="row placeholders hidden bar" id="_7">
+            <div class="col-xs-12 col-sm-12 placeholder">
+              <h2>How often(Scale 1-10)</h2>
+              <div class="frequencyChart"></div>
+              <p>
+                Unsuprisingly people dont download music, Streaming has definetly taken the overall consensus when it comes to accessability of media, which leads us to ask: How much of their media is attained for free?
+              </p>
+            </div>
+          </div>
+          <div class="row placeholders circle hidden" id="_8">
+            <div class="col-xs-12 col-sm-12 placeholder">
+              <h2>Ammount of Media Obtained For Free</h2>
+              <div class="ammountChart"></div>
+              <p>
+                This one was kinda one side or the other. Either they get their media for free or they dont. Why this was, we couldnt fugure out till we looked at the next question after this that presented some light on the Question.
+              </p>
+            </div>
+          </div>
+          <div class="row placeholders circle hidden" id="_9">
+            <div class="col-xs-12 col-sm-12 placeholder">
+              <h1>What was the reason for downloading free music?</h1>
+              <p>
+                People just dont have the money or dont want to sacrafice the penny for the media they use. And one consensus that popped out was this "If its free why bother." kind of attitude.
+              </p>
+              <table class="table table-responsive table-striped table-hover">
+                <thead>
+                   <tr>
+                      <th>#</th>
+                      <th>Response</th>
+                   </tr>
+                </thead>
+                <tbody id="open_ended">
+
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="row placeholders circle hidden" id="_10">
+            <div class="col-xs-12 col-sm-12 placeholder non_stream">
+              <h2>Method Which You Watch Movies</h2>
+              <div class="methodChart"></div>
+              <p>
+                Despite what we thought, alot of poeple will use a paid website to view their media, possibly on amazon, hulu, YouTube red.etc
+              </p>
+            </div>
+          </div>
+          <div class="row placeholders circle hidden" id="_11">
+            <div class="col-xs-12 col-sm-12 placeholder paid_site">
+              <h2>Paid Streaming Sites</h2>
+              <div class="paidSitesChart"></div>
+              <p>
+                Alot of people decided to ommit this one possibly because quite a few people
+              </p>
+            </div>
+          </div>
+          <div class="row placeholders circle hidden " id="_12">
+            <div class="col-xs-12 col-sm-12 placeholder">
+              <h2>Download Free Movies</h2>
+              <div class="pirateChart"></div>
+              <p>
+              </p>
+            </div>
+          </div>
+          <div class="row placeholders circle hidden" id="_13">
+            <div class="col-xs-12 col-sm-12 placeholder">
+              <h2>Pirate Movies</h2>
+              <div class="pirateFromChart"></div>
+              <p>
+              </p>
+            </div>
+          </div>
+          <div class="row placeholders circle hidden" id="_14">
+            <div class="col-xs-12 col-sm-12 placeholder">
+              <h2>Give Back After Viewing Movies</h2>
+              <div class="contributeChart"></div>
+            </div>
+            <!--alksjdalksdjalskdjalksdj-->
+          </div>
+          <div class="row placeholders circle hidden " id="_15">
+            <div class="col-xs-12 col-sm-12 placeholder">
+              <h2>Free Theft Belief</h2>
+              <div class="freeTheftChart"></div>
+              <p>
+                There was almost a split between the topic " Is downloading free music stealing?".  One of the most popular reason we found for getting free music was price of music. Which can be found on Question "What was the reason you download music?".
+              </p>
+            </div>
+          </div>
+          <div class="row placeholders circle hidden" id="_16">
+            <div class="col-xs-12 col-sm-12 placeholder">
+              <h2>Pirate Contributed Theft</h2>
+              <div class="contributePirateChart"></div>
+              <p>
+                Even though free music was almost split, the view of free music was different. We had 43% of our responses viewed that pirated movies was not stealing. We think the difference might be music has visible artist who make their music, but movies are  more the studio it came form with multilpe actor/actress
+              </p>
+            </div>
+            <!--alksjdalksdjalskdjalksdj-->
+          </div>
+
+          <div class="scroll col-sm-12 col-xs-12 hidden" id="_0">
+            <div class="row placeholders">
+              <div class="col-xs-12 col-sm-12 placeholder">
+                <h2>Responses</h2>
+                <table class="table table-responsive table-striped table-hover">
+                  <thead class="all_question">
+                     <tr>
+                        <th></th>
+                     </tr>
+                  </thead>
+                  <tbody id="all_response">
+
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <!-- Row 3-->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" charset="utf-8" src="js/lodash.js"></script>
+    <script type="text/javascript" charset="utf-8" src="bower_components/jquery/dist/jquery.js"></script>
+    <script type="text/javascript" charset="utf-8" src="bower_components/papaparse/papaparse.js"></script>
+    <script type="text/javascript" charset="utf-8" src='js/d3.v3.min.js'></script>
+    <script type="text/javascript" charset="utf-8" src="bower_components/c3/c3.js"></script>
+    <script type="text/javascript" charset="utf-8" src="bower_components/bootstrap-sass/assets/javascripts/bootstrap.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/index.js"></script>
+  </body>
+</html>
