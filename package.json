@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/yukio808/html_visualization#readme",
   "dependencies": {
+    "htmlparser2": "^3.9.0",
     "lodash": "^4.6.1"
   }
 }
