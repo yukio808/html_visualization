@@ -5,6 +5,7 @@
   `electron app/index.js`
   For some reason I have yet to figure out you cant just get the electron package nativly and run it
 */
+/* eslint strict: 0*/
 'use strict';
 
 import electron from 'electron';

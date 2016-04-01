@@ -1,3 +1,4 @@
+/* eslint strict: 0*/
 'use strict';
 import fs from 'fs';
 import htmlParser from 'htmlparser2';
