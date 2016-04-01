@@ -10,3 +10,8 @@ This tool is ment to be a visualization tool for educational purposes to see the
 * Have it run in an electron app
 * Open-GL C++
 * Render and embedable HTML file.
+
+## Updates:
+* Have successful JSON response to front end in an electron app
+* Using Electron for application
+* Deciding direction of project
