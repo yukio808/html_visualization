@@ -21,14 +21,15 @@ const crashReporter = electron.crashReporter;
 crashReporter.start();
 // Always have a reference to the window
 let windowFrame;
-let menu = null;
+// let menu = null;
 // callback function for on 'ready' to create new frame.
 function genWindow() {
+  const localHost = 'http://127.0.0.1:';
   windowFrame = new BrowserWindow();
   windowFrame.on('closed', () => {
     windowFrame = null;
   });
-  windowFrame.loadURL('http://127.0.0.1:' + PORT);
+  windowFrame.loadURL(localHost + PORT);
   windowFrame.toggleDevTools();
   // menu = Menu.buildFromTemplate(template);
   // windowFrame.setApplicationMenu(menu);
