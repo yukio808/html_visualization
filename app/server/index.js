@@ -1,3 +1,4 @@
+/* eslint strict: 0, console: 0*/
 'use strict';
 // import config from '../../webpack.config.js';
 import routes from '../routes/';
@@ -30,13 +31,15 @@ app.use(routes);
 function onListening() {
   const addr = server.address();
   const bind = typeof addr === 'string' ? 'pipe ' + addr : 'port ' + addr.port;
-  console.log('Listening on ' + bind);
+  const message = 'Listening on ';
+  console.log(message + bind);
   // Hack for only opening window when application has started up
-  require('./window.js')
+  require('./window.js');
 }
 
 function errLog(err) {
   if (err) {
+    // handle errors here
     throw err;
   }
 }
