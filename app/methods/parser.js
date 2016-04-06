@@ -2,7 +2,6 @@
 'use strict';
 import fs from 'fs';
 import htmlParser from 'htmlparser2';
-
 export function parseHtml(path, encoding = 'utf8', callback) {
   fs.readFile(path, encoding, (err, data) => {
     let htmlData;
